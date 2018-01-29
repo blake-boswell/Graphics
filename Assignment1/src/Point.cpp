@@ -22,7 +22,7 @@ void Point::setX(int x) {
 }
 
 int Point::getY() {
-    return x;
+    return y;
 }
 
 int Point::setY(int y) {
