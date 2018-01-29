@@ -13,7 +13,7 @@ Point::Point() {
     Point::y = 0;
 }
 
-int Point::getX() {
+float Point::getX() {
     return x;
 }
 
@@ -21,10 +21,10 @@ void Point::setX(int x) {
     Point::x = x;
 }
 
-int Point::getY() {
+float Point::getY() {
     return y;
 }
 
-int Point::setY(int y) {
+void Point::setY(int y) {
     Point::y = y;
 }

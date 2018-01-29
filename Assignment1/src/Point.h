@@ -6,14 +6,14 @@
 #define GRAPHICS_POINT_H
 class Point {
     private:
-        int x;
-        int y;
+        float x;
+        float y;
     public:
         Point(int x, int y);
         Point();
-        int getX();
+        float getX();
         void setX(int x);
-        int getY();
-        int setY(int y);
+        float getY();
+        void setY(int y);
 };
 #endif //GRAPHICS_POINT_H
