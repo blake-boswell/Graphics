@@ -21,7 +21,7 @@ int main() {
     std::string pair;
     // Read points file
     std::ifstream file;
-    file.open("../Assignment1/src/points.txt");
+    file.open("points.txt");
     if(file.is_open()) {
         std::cout << "Opened file" << std::endl;
         int index = 0;
