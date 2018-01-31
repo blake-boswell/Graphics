@@ -11,9 +11,10 @@ class Point {
     public:
         Point(int x, int y);
         Point();
+        ~Point();
         float getX();
-        void setX(int x);
+        void setX(float x);
         float getY();
-        void setY(int y);
+        void setY(float y);
 };
 #endif //GRAPHICS_POINT_H
